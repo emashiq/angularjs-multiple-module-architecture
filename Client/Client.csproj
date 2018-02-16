@@ -70,6 +70,7 @@
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="application\layout\dashboard.html" />
+    <Content Include="application\module\dashboard\component\home\homeComponent.js" />
     <Content Include="application\module\dashboard\component\home\template\home.html" />
     <Content Include="application\module\dashboard\dashboardModule.js" />
     <Content Include="Content\dashboard.css" />

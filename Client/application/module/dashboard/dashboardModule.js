@@ -13,7 +13,7 @@
         $stateProvider.state('dashboard.home',
             {
                 url: '/home',
-                templateUrl: '/application/module/dashboard/component/home/template/home.html'
+                template: '<home></home>'
             });
     });
 })();

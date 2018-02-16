@@ -8,7 +8,7 @@
     <link href="Content/bootstrap-reboot.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
-<body ng-app="app">
+<body ng-app="app" ng-controller="rootController">
     <ui-view></ui-view>
     <!-- Jquery -->
 <script src="Scripts/jquery-3.0.0.js"></script>
@@ -20,11 +20,12 @@
     <script src="Scripts/angular-route.js"></script>
     <!-- Angular JS UI Router -->
     <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="bower_components/angular-ui-router/release/resolveService.js"></script>
 
     <script src="application/app.js"></script>
     <script src="application/module/auth/loginModule.js"></script>
     <script src="application/module/dashboard/dashboardModule.js"></script>
-
+    <script src="application/module/dashboard/component/home/homeComponent.js"></script>
     <!-- Controller -->
 
 </body>

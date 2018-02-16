@@ -11,8 +11,15 @@
             'loginModule',
             'dashboardModule',
             // 3rd Party Modules
-        'ui.router'
-        ]);
+            'ui.router'
+        ]).controller('rootController', function ($scope, $location, $rootScope, $log, $state) {
+        console.log($rootScope);
+        $rootScope.$on("$locationChangeStart", function (event, next, current) {
+            $log.info("location changing to:" + $state);    //Checking For Using UI Router
+            $log.info("location changing to:" + $location); // Checking For Using Ng Router
+            });
+      
+    });
     app.config(function ($stateProvider, $urlRouterProvider) {
         $urlRouterProvider.otherwise('/');
         $stateProvider.state('login',
