@@ -14,7 +14,7 @@
         var helloState = {
             name: 'login.login',
             url: 'login',
-            templateUrl: '/application/module/auth/component/login/template/login.html'
+            template: '<login></login>'
         };
 
         var aboutState = {

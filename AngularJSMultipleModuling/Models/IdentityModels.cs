@@ -21,7 +21,7 @@ namespace AngularJSMultipleModuling.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("Connection", throwIfV1Schema: false)
         {
         }
         

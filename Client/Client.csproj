@@ -68,11 +68,27 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="application\layout\notify.html" />
+    <Content Include="bower_components\angular-notify\.bower.json" />
+    <Content Include="bower_components\angular-notify\bower.json" />
+    <Content Include="bower_components\angular-notify\LICENSE" />
+    <Content Include="bower_components\angular-notify\README.md" />
     <None Include="packages.config" />
     <Content Include="application\layout\dashboard.html" />
+    <Content Include="application\module\auth\component\login\controller\loginController.js" />
     <Content Include="application\module\dashboard\component\home\homeComponent.js" />
     <Content Include="application\module\dashboard\component\home\template\home.html" />
     <Content Include="application\module\dashboard\dashboardModule.js" />
+    <Content Include="application\service\authinticationService.js" />
+    <Content Include="bower_components\angular-notify\angular-notify.css" />
+    <Content Include="bower_components\angular-notify\angular-notify.html" />
+    <Content Include="bower_components\angular-notify\angular-notify.js" />
+    <Content Include="bower_components\angular-notify\dist\angular-notify.css" />
+    <Content Include="bower_components\angular-notify\dist\angular-notify.js" />
+    <Content Include="bower_components\angular-notify\dist\angular-notify.min.css" />
+    <Content Include="bower_components\angular-notify\dist\angular-notify.min.js" />
+    <Content Include="bower_components\angular-notify\dist\index.js" />
+    <Content Include="bower_components\angular-notify\index.js" />
     <Content Include="Content\dashboard.css" />
     <Content Include="Scripts\dashboard.js" />
     <Content Include="Scripts\jquery-3.0.0.slim.min.map" />
@@ -973,7 +989,6 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="application\module\auth\component\login\controller\" />
     <Folder Include="application\module\auth\Directive\" />
     <Folder Include="application\module\auth\Service\" />
     <Folder Include="application\module\dashboard\directive\" />
