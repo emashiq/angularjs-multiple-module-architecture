@@ -14,8 +14,7 @@
         $stateProvider.state('dashboard.home',
             {
                 url: '/home',
-                template: '<home></home>',
-                authinticate:true
+                template: '<home></home>'
             });
     });
 })();

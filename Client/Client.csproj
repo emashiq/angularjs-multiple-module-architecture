@@ -69,10 +69,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="application\layout\notify.html" />
+    <Content Include="application\service\ajaxService.js" />
     <Content Include="bower_components\angular-notify\.bower.json" />
     <Content Include="bower_components\angular-notify\bower.json" />
     <Content Include="bower_components\angular-notify\LICENSE" />
     <Content Include="bower_components\angular-notify\README.md" />
+    <Content Include="gulpfile.js" />
+    <Content Include="package-lock.json" />
+    <Content Include="package.json" />
+    <Content Include="bower.json" />
     <None Include="packages.config" />
     <Content Include="application\layout\dashboard.html" />
     <Content Include="application\module\auth\component\login\controller\loginController.js" />
@@ -90,6 +95,7 @@
     <Content Include="bower_components\angular-notify\dist\index.js" />
     <Content Include="bower_components\angular-notify\index.js" />
     <Content Include="Content\dashboard.css" />
+    <Content Include="index.js" />
     <Content Include="Scripts\dashboard.js" />
     <Content Include="Scripts\jquery-3.0.0.slim.min.map" />
     <Content Include="Scripts\jquery-3.0.0.min.map" />
